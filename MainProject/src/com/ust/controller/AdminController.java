@@ -76,7 +76,7 @@ public class AdminController {
 		return list;
 	}
 
-	// get doctor by id
+	// get doctor by id .......
 	@RequestMapping(value = "/api/doctorbyid/{dId}", method = RequestMethod.GET)
 	@ResponseBody
 	public DoctorStaff getDoctorById(@PathVariable("dId") int dId) {
